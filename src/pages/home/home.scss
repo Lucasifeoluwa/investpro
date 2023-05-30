@@ -1,0 +1,84 @@
+@use "variables" as v;
+
+.home {
+  .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: v.$lightGreen;
+    height: auto;
+    padding: 20px;
+
+    .pay {
+      font-family: Bold;
+      width: 150px;
+      background-color: white;
+      border-radius: 10px;
+      padding: 5px;
+      font-size: 12px;
+      text-align: center;
+      margin-top: 40px;
+      color: v.$textColor3;
+    }
+
+    .access {
+      text-align: center;
+      margin-top: 10px;
+      color: v.$textColor1;
+      font-family: Bold;
+      font-size: 30px;
+      line-height: 1.3;
+    }
+
+    .process {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      width: 900px;
+      padding: 20px;
+      margin-top: 40px;
+
+      .process1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 1.5;
+
+        .icon {
+          display: flex;
+          background-color: white;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 10px;
+          color: v.$lightBlue;
+        }
+
+        .info {
+          font-family: Bold;
+          font-size: 18px;
+          margin-top: 5px;
+        }
+
+        .subInfo {
+          color: v.$textColor4;
+          font-family: Bold;
+          font-size: 14;
+          margin-top: 5px;
+        }
+
+        .num {
+          font-size: 50px;
+          color: v.$textColor7;
+          font-family: Regular;
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+}

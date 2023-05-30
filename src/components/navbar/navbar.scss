@@ -1,0 +1,50 @@
+@use "variables" as v;
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+  margin-left: 80px;
+  color: white;
+
+  .first {
+    margin-right: 200px;
+    font-family: Bold;
+    background-color: none;
+  }
+
+  .second {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    font-family: SemiBold;
+    color: v.$subtitle;
+    font-size: 14px;
+
+    .items {
+      margin-right: 30px;
+      &:hover {
+        font-family: Bold;
+        color: white;
+      }
+    }
+  }
+
+  .third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 20px;
+    padding: 10px;
+    background-color: v.$lightBlue;
+    color: white;
+    font-family: Bold;
+    font-size: 12px;
+    border-radius: 8px;
+
+    .icon {
+      font-size: 16px;
+    }
+  }
+}
