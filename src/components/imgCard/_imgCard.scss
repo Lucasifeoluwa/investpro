@@ -1,2 +1,24 @@
+@use "variables" as v;
+
 .imgCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  position: relative;
+
+  img {
+    align-self: flex-end;
+    height: 250px;
+    width: 80%;
+    object-fit: cover;
+    margin-bottom: 2px;
+  }
+  .popup {
+    position: absolute;
+    left: 7px;
+    top: 7px;
+  }
 }

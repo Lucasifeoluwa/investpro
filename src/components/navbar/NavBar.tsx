@@ -1,6 +1,4 @@
-import React from "react";
 import "./navbar.scss";
-import { ArrowForward } from "@mui/icons-material";
 
 function NavBar(): JSX.Element {
   return (
@@ -12,10 +10,6 @@ function NavBar(): JSX.Element {
         <div className="items">Bill Split</div>
         <div className="items">Blog</div>
         <div className="items">FAQ's</div>
-      </div>
-      <div className="third">
-        <span style={{ marginRight: 3 }}>Get started </span>
-        <ArrowForward className="icon" />
       </div>
     </div>
   );

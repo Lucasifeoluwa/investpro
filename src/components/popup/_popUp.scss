@@ -1,0 +1,37 @@
+@use "variables" as v;
+
+.popUp {
+  display: flex;
+  align-items: center;
+  width: 140px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: 7 solid v.$textColor1;
+
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 5px;
+    color: v.$iconBlue;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 0.5px solid v.$textColor7;
+  }
+
+  .title {
+    font-family: Bold;
+    color: v.$textColor4;
+    font-size: 12px;
+  }
+
+  .subtitle {
+    font-family: Bold;
+    color: v.$textColor2;
+    font-size: 14px;
+  }
+}

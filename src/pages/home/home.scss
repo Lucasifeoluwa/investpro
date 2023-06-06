@@ -8,7 +8,7 @@
     justify-content: center;
     background-color: v.$lightGreen;
     height: auto;
-    padding: 20px;
+    padding: 20px 100px 20px 100px;
 
     .pay {
       font-family: Bold;
@@ -56,7 +56,7 @@
           align-items: center;
           justify-content: center;
           margin-bottom: 10px;
-          color: v.$lightBlue;
+          color: v.$iconBlue;
         }
 
         .info {
@@ -76,7 +76,117 @@
           font-size: 50px;
           color: v.$textColor7;
           font-family: Regular;
-          margin-bottom: 50px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  .sections {
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px 50px 100px;
+    flex-direction: column;
+
+    .section1 {
+      margin-top: 1px;
+      display: flex;
+      align-items: center;
+      height: 100%;
+
+      .phone {
+        object-fit: cover;
+      }
+
+      .sectionsContent {
+        flex: 1;
+        height: 100%;
+        font-family: Bold;
+
+        .her {
+          margin-bottom: 10px;
+          font-size: 16px;
+          color: v.$textColor4;
+        }
+
+        .title {
+          font-size: 36px;
+          margin-bottom: 20px;
+          margin-top: 20px;
+        }
+
+        .subtitle {
+          color: v.$textColor4;
+          font-size: 18px;
+          line-height: 1.8;
+        }
+        .icon {
+          display: flex;
+          align-items: center;
+          color: v.$lightBlue;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+  .payNow {
+    display: flex;
+    align-items: center;
+    padding: 100px 100px 100px 100px;
+    background-color: v.$purple;
+    flex-direction: column;
+
+    .payhero {
+      font-family: Bold;
+      width: 100px;
+      background-color: white;
+      border-radius: 10px;
+      padding: 5px;
+      font-size: 14px;
+      text-align: center;
+      color: v.$textColor1;
+      margin-bottom: 20px;
+    }
+
+    .paytitle {
+      font-family: Bold;
+      font-size: 46px;
+      color: v.$textColor1;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .paysubtitle {
+      font-family: Regular;
+      font-size: 16px;
+      color: v.$textColor3;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .palm {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+
+      .firstpalm {
+        margin: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-family: SemiBold;
+        color: v.$lightBlue;
+
+        .palmtitle {
+          font-size: 16px;
+        }
+        .palmnumber {
+          font-size: 30px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        .palmsubtitle {
+          font-size: 30px;
         }
       }
     }

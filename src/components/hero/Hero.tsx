@@ -31,10 +31,10 @@ function Hero({ title, subtitle, tag, optional }: HeroProps) {
               <div
                 style={{
                   width: "100%",
-                  backgroundColor: Colors.grey,
-                  height: 1,
+                  backgroundColor: "#2d486c",
+                  height: 3,
                   marginTop: 5,
-                  marginBottom: 15,
+                  marginBottom: 50,
                 }}
               />
               <div className="links">
@@ -62,8 +62,7 @@ function Hero({ title, subtitle, tag, optional }: HeroProps) {
         )}
       </div>
       <div className="right">
-        {/* <img src="" className="img" /> */}
-        hiya
+        <img alt="" src={require("../../assets/images/phone3.png")} />
       </div>
     </div>
   );

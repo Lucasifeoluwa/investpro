@@ -3,26 +3,27 @@
 .navbar {
   display: flex;
   align-items: center;
-  margin-right: 80px;
-  margin-left: 80px;
+  margin: 40px 80px 0px 60px;
   color: white;
+  cursor: pointer;
 
   .first {
-    margin-right: 200px;
+    margin-right: 60px;
     font-family: Bold;
     background-color: none;
+    font-size: 30px;
   }
 
   .second {
     display: flex;
     align-items: center;
     flex: 1;
-    font-family: SemiBold;
-    color: v.$subtitle;
-    font-size: 14px;
+    font-family: Bold;
+    color: v.$textColor8;
+    font-size: 16px;
 
     .items {
-      margin-right: 30px;
+      margin-right: 80px;
       &:hover {
         font-family: Bold;
         color: white;
