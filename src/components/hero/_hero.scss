@@ -67,14 +67,20 @@
         flex: 1;
       }
 
-      .icon {
+      .subicon {
+        font-family: Bold;
         display: flex;
-        background-color: v.$green;
-        width: 80px;
-        padding: 10px;
-        border-radius: 10px;
+        background-color: v.$nav;
+        width: 100px;
+        padding: 10px 16px;
+        margin: 0px 0px 10px 0px;
+        border-radius: 15px;
         align-items: center;
         justify-content: center;
+        cursor: pointer;
+        color: v.$green;
+        font-size: 14px;
+        border: 1px solid v.$green;
       }
     }
 

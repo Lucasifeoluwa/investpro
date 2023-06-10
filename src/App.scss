@@ -14,3 +14,15 @@
   font-family: Regular;
   src: url(../src/fonts/Arimo-Regular.ttf);
 }
+
+.swiper-pagination-bullet-active {
+  background-color: blue !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+}
+.swiper-pagination-bullet {
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50% !important;
+}

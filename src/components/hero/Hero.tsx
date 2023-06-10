@@ -1,7 +1,6 @@
 import React from "react";
 import "./_hero.scss";
-import { Apple, ArrowForward, ArrowRight, Google } from "@mui/icons-material";
-import { Colors } from "../../utils";
+import { Apple, Google } from "@mui/icons-material";
 
 interface HeroProps {
   title: string;
@@ -23,10 +22,7 @@ function Hero({ title, subtitle, tag, optional }: HeroProps) {
             <div>
               <div className="mobile">
                 +234 <span>X-XXX-XXX</span>
-                <div className="icon">
-                  <div style={{ color: "black", fontSize: 14 }}>Send</div>
-                  <ArrowForward style={{ fontSize: 20, color: "black" }} />
-                </div>
+                <button className="subicon">Send</button>
               </div>
               <div
                 style={{

@@ -128,6 +128,7 @@
       }
     }
   }
+
   .payNow {
     display: flex;
     align-items: center;
@@ -188,6 +189,174 @@
         .palmsubtitle {
           font-size: 30px;
         }
+      }
+    }
+  }
+
+  .swiper {
+    display: flex;
+    flex-direction: column;
+
+    .swipeqoute {
+      font-family: Bold;
+      color: v.$lightBlue;
+      font-size: 80px;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    .swipetag {
+      text-align: center;
+      font-family: SemiBold;
+      font-size: 40px;
+      margin: 30px 0px 50px 0px;
+    }
+  }
+
+  .footer {
+    background-color: v.$nav;
+
+    .footerFirst {
+      padding: 100px 50px 50px 200px;
+      display: flex;
+
+      .subscribe {
+        flex-direction: column;
+        width: 50%;
+        margin-right: 40px;
+
+        .subdesc {
+          color: white;
+          font-family: Regular;
+          font-size: 16px;
+          margin: 10px 0px;
+        }
+
+        .subTitle {
+          font-family: SemiBold;
+          color: white;
+          font-size: 48px;
+          margin: 20px 0px;
+        }
+
+        .subsSubtitle {
+          font-family: Bold;
+          font-size: 14px;
+          color: white;
+          margin: 40px 0px 0px;
+        }
+
+        .textInput {
+          align-items: center;
+
+          .inputfield {
+            display: flex;
+
+            input {
+              outline: none;
+              border: none;
+              margin-top: 20px;
+              background-color: transparent;
+              color: white;
+              font-size: 20px;
+              flex: 1;
+
+              ::placeholder {
+                font-size: 20px;
+              }
+            }
+
+            .subicon {
+              font-family: Bold;
+              display: flex;
+              background-color: v.$nav;
+              width: 100px;
+              padding: 10px 16px;
+              margin: 0px 0px 10px 0px;
+              border-radius: 15px;
+              align-items: center;
+              justify-content: center;
+              cursor: pointer;
+              color: v.$green;
+              font-size: 14px;
+              border: 1px solid v.$green;
+            }
+          }
+        }
+      }
+    }
+
+    .footerSecond {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      color: white;
+      justify-content: center;
+      padding: 20px;
+
+      .first {
+        margin-right: 50px;
+
+        .firsttitle {
+          font-size: 30px;
+          font-family: Bold;
+        }
+        .firstsubtitle {
+          font-size: 20px;
+          font-family: Regular;
+          margin: 20px 0px;
+          color: v.$textColor9;
+        }
+        .links {
+          display: flex;
+          align-items: center;
+          margin-top: 10px;
+          cursor: pointer;
+        }
+      }
+      .second {
+        width: 50%;
+        display: flex;
+
+        justify-content: space-around;
+
+        .contact {
+          flex-direction: column;
+
+          .contacthead {
+            font-family: Bold;
+            color: white;
+            font-size: 16px;
+            margin-bottom: 25px;
+          }
+          .contactbody {
+            font-family: Regular;
+            font-size: 16px;
+            color: v.$textColor10;
+            margin-bottom: 35px;
+            cursor: pointer;
+
+            &:hover {
+              color: white;
+            }
+          }
+          .contactbody .contactIcon {
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+
+    .footerThird {
+      padding: 20px;
+
+      .thirdfooter {
+        font-family: Regular;
+        text-align: center;
+        color: v.$textColor10;
+        font-size: 14px;
+        margin: 10px 0px;
       }
     }
   }
