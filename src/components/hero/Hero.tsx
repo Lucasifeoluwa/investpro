@@ -6,14 +6,31 @@ interface HeroProps {
   title: string;
   subtitle: string;
   tag: string;
+  tagwidth?: string | number;
+  img?: string;
   optional?: string;
+  rightwidth?: string | number;
+  leftwidth?: string | number;
+  imgHeigth?: string | number;
 }
 
-function Hero({ title, subtitle, tag, optional }: HeroProps) {
+function Hero({
+  img,
+  title,
+  subtitle,
+  tag,
+  tagwidth,
+  optional,
+  rightwidth,
+  leftwidth,
+  imgHeigth,
+}: HeroProps) {
   return (
     <div className="hero">
-      <div className="left">
-        <div className="tag">{tag}</div>
+      <div className="left" style={{ width: leftwidth }}>
+        <div className="tag" style={{ width: tagwidth }}>
+          {tag}
+        </div>
         <div className="title">{title}</div>
         <div className="subtitle">{subtitle}</div>
         {optional && (
@@ -57,8 +74,8 @@ function Hero({ title, subtitle, tag, optional }: HeroProps) {
           </div>
         )}
       </div>
-      <div className="right">
-        <img alt="" src={require("../../assets/images/phone3.png")} />
+      <div className="right" style={{ width: rightwidth }}>
+        <img alt="" src={img} style={{ height: imgHeigth }} />
       </div>
     </div>
   );

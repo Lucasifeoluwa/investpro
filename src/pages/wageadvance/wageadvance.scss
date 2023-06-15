@@ -1,2 +1,22 @@
-.wageAdvance {
+.wageadvance {
+  .section {
+    padding: 50px;
+    .sections {
+      display: flex;
+      align-items: center;
+
+      .section1 {
+        width: 40%;
+        background-color: red;
+      }
+      .section2 {
+        width: 20%;
+        background-color: black;
+      }
+      .section3 {
+        width: 40%;
+        background-color: blue;
+      }
+    }
+  }
 }

@@ -1,15 +1,45 @@
 import "./navbar.scss";
+import { NavLink } from "react-router-dom";
 
 function NavBar(): JSX.Element {
   return (
     <div className="navbar">
-      <div className="first">investorpro</div>
+      <div className="first">
+        <NavLink to="/" style={{ textDecoration: "none", color: "white" }}>
+          investorpro
+        </NavLink>
+      </div>
       <div className="second">
-        <div className="items">About us</div>
-        <div className="items">Wage Advance</div>
-        <div className="items">Bill Split</div>
-        <div className="items">Blog</div>
-        <div className="items">FAQ's</div>
+        <NavLink
+          to="/about"
+          className={({ isActive }) => (isActive ? "active" : "items")}
+        >
+          About us
+        </NavLink>
+        <NavLink
+          to="/wageadvance"
+          className={({ isActive }) => (isActive ? "active" : "items")}
+        >
+          Wage Advance
+        </NavLink>
+        <NavLink
+          to="/billsplit"
+          className={({ isActive }) => (isActive ? "active" : "items")}
+        >
+          Bill Split
+        </NavLink>
+        <NavLink
+          to="/faq"
+          className={({ isActive }) => (isActive ? "active" : "items")}
+        >
+          FAQ'S
+        </NavLink>
+        <NavLink
+          to="/blog"
+          className={({ isActive }) => (isActive ? "active" : "items")}
+        >
+          Blog
+        </NavLink>
       </div>
     </div>
   );

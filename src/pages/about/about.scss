@@ -1,2 +1,113 @@
+@use "variables" as v;
 .about {
+  .sections {
+    display: flex;
+    justify-content: center;
+    padding: 50px 120px 50px 120px;
+    flex-direction: column;
+
+    .section1 {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      margin-bottom: 10px;
+
+      .phone {
+        object-fit: cover;
+      }
+
+      .sectionsContent {
+        flex: 1;
+        height: 100%;
+        font-family: Bold;
+        margin-left: 30px;
+
+        .her {
+          margin-bottom: 10px;
+          font-size: 16px;
+          color: v.$textColor4;
+        }
+
+        .title {
+          font-size: 36px;
+          margin-bottom: 20px;
+          margin-top: 20px;
+        }
+
+        .subtitle {
+          color: v.$textColor4;
+          font-size: 18px;
+          line-height: 1.8;
+        }
+        .icon {
+          display: flex;
+          align-items: center;
+          color: v.$lightBlue;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+  .pay {
+    display: flex;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+    flex-direction: column;
+
+    .payhero {
+      font-family: Bold;
+      width: 250px;
+      background-color: #d3e2fe;
+      border-radius: 20px;
+      padding: 5px;
+      font-size: 14px;
+      text-align: center;
+      color: #1b1e27;
+      margin-bottom: 15px;
+    }
+
+    .paytitle {
+      font-family: Bold;
+      font-size: 48px;
+      color: v.$textColor1;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+
+    .paysubtitle {
+      font-family: Regular;
+      font-size: 16px;
+      color: #494d5a;
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+
+    .palm {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+
+      .firstpalm {
+        margin: 40px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-family: SemiBold;
+        color: v.$lightBlue;
+
+        .palmtitle {
+          font-size: 16px;
+        }
+        .palmnumber {
+          font-size: 30px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        .palmsubtitle {
+          font-size: 30px;
+        }
+      }
+    }
+  }
 }

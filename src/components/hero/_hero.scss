@@ -1,18 +1,16 @@
 @use "variables" as v;
 
 .hero {
-  padding: 0px 100px 20px 100px;
   display: flex;
-  width: 70%;
   justify-content: center;
   align-items: center;
-  margin-left: 110px;
-  margin-top: 80px;
+  margin-left: 50px;
+  padding: 20px 100px 0px 150px;
+  margin-top: 10px;
 
   .left {
-    width: 50%;
-    height: 100%;
     position: relative;
+    margin-right: 20px;
 
     .tag {
       display: flex;
@@ -20,19 +18,15 @@
       font-family: Bold;
       color: black;
       background-image: linear-gradient(to right, #02daa7, #19aecb, #2c8aea);
-      width: 200px;
       justify-content: center;
       border-radius: 20px;
       padding: 7px 8px 8px 10px;
       margin-bottom: 10px;
-      position: absolute;
-      top: -50px;
-      left: 0px;
     }
 
     .title {
       font-family: Bold;
-      font-size: 70px;
+      font-size: 62px;
       color: white;
       line-height: 70px;
       font-weight: bolder;
@@ -50,8 +44,9 @@
 
     .subtitle {
       margin-top: 40px;
-      color: v.$subtitle;
+      color: v.$textColor10;
       font-family: Bold;
+      font-size: 22px;
     }
 
     .mobile {
@@ -120,14 +115,15 @@
     }
   }
   .right {
-    width: 50%;
+    height: 100%;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
-    margin-left: 50px;
+    overflow: hidden;
 
-    object-fit: contain;
-    img {
+    .img {
+      object-fit: contain;
+      height: 100%;
+      width: 100%;
     }
   }
 }
