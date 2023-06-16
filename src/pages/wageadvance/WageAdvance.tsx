@@ -15,7 +15,7 @@ function WageAdvance() {
         leftwidth={"50%"}
         rightwidth="50%"
       />
-      <div className="section">
+      {/*  <div className="section">
         <div className="sections">
           <div className="section1">
             <img src={require("../../assets/images/wage5.png")} />
@@ -23,8 +23,8 @@ function WageAdvance() {
           <div className="section2">Hi</div>
           <div className="section3">Sup</div>
         </div>
-      </div>
-      {/* <Footer /> */}
+      </div> */}
+      <Footer />
     </div>
   );
 }
