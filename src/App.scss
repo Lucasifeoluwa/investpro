@@ -1,18 +1,21 @@
+@import url(./_reset.scss);
+@import url(./_partials.scss);
+
 @font-face {
   font-family: Bold;
-  src: url(../src/fonts/Arimo-Bold.ttf);
+  src: url(../src/fonts/Nunito-Bold.ttf);
 }
 @font-face {
   font-family: Medium;
-  src: url(../src/fonts/Arimo-Medium.ttf);
+  src: url(../src/fonts/Nunito-Medium.ttf);
 }
 @font-face {
   font-family: SemiBold;
-  src: url(../src/fonts/Arimo-SemiBold.ttf);
+  src: url(../src/fonts/Nunito-SemiBold.ttf);
 }
 @font-face {
   font-family: Regular;
-  src: url(../src/fonts/Arimo-Regular.ttf);
+  src: url(../src/fonts/Nunito-Regular.ttf);
 }
 
 .swiper-pagination-bullet-active {

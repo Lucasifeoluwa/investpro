@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import "./index.css";
+import "./App.scss";
 import reportWebVitals from "./reportWebVitals";
 import { About, Billsplit, Blog, FAQ, Home, WageAdvance } from "./pages";
+import { FaqList, ListComponent } from "./components";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <ListComponent />,
   },
   {
     path: "/about",

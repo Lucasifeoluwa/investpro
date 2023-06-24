@@ -1,5 +1,5 @@
 export default interface PopUpProps {
-  title?: string;
+  title: string;
   subtitle?: string;
-  icon?: React.ReactNode;
+  icon: React.ReactNode;
 }

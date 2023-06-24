@@ -81,12 +81,10 @@ function Home() {
             <div className="title">Get Fast Access to Your Wage</div>
             <div className="subtitle">
               My pay now? You betcha. Access your pay whenever you need it, for{" "}
-              <br />
               just a small fee when you pay us back. No hidden or late fees, we
               just want to make it easier for you to access your pay now. With
-              your wages,
-              <br /> you can pay for the things you need. Easily cover mid-month
-              bills, get <br /> your groceries or use it toward anything else
+              your wages, you can pay for the things you need. Easily cover
+              mid-month bills, get your groceries or use it toward anything else
               you might need.
               <div style={{ marginTop: 20 }}>
                 It's your money! Use it how you'd like. All you need to do is

@@ -1,0 +1,29 @@
+.faqlist {
+  width: 500px;
+
+  ul {
+    background-color: aqua;
+    padding-left: 0px;
+    border-radius: 8px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .listtitle {
+    flex: 1;
+    font-family: Bold;
+    font-size: 16px;
+  }
+  .listicon {
+    border: 1 solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+  }
+}

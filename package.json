@@ -15,8 +15,10 @@
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "install": "^0.13.0",
+    "lucide-react": "^0.252.0",
     "node-sass": "^9.0.0",
     "npm": "^9.6.7",
+    "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2",
@@ -27,7 +29,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -49,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass-loader": "^13.3.2"
   }
 }

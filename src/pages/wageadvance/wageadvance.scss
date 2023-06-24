@@ -1,21 +1,71 @@
+@use "variables" as v;
+
 .wageadvance {
+  .sectionhead {
+    text-align: center;
+    margin: 50px 0px 100px 0px;
+
+    .title {
+      font-family: Bold;
+      font-size: 36px;
+      margin: 10px 0px 10px 0px;
+    }
+
+    .subtitle {
+      font-family: SemiBold;
+      font-size: 20px;
+      color: v.$textColor2;
+    }
+  }
+
   .section {
     padding: 50px;
+    font-family: SemiBold;
+    color: black;
+
     .sections {
       display: flex;
       align-items: center;
+      justify-content: space-between;
 
       .section1 {
         width: 40%;
-        background-color: red;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .image {
+          object-fit: contain;
+        }
       }
+
       .section2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 20%;
-        background-color: black;
+        margin-right: 10px;
+        margin-left: 10px;
       }
+
       .section3 {
         width: 40%;
-        background-color: blue;
+
+        .sectiontitle {
+          font-family: Bold;
+          font-size: 30px;
+          color: v.$textColor1;
+          margin-bottom: 10px;
+        }
+
+        .sectionsubtitle {
+          font-size: 16px;
+          font-family: Regular;
+          width: 80%;
+          line-height: 1.8;
+          color: v.$textColor2;
+        }
       }
     }
   }

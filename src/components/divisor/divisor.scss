@@ -1,0 +1,23 @@
+@use "variables" as v;
+
+.divisor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .number {
+    background-color: v.$lightBlue;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-family: Bold;
+    font-size: 28px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+}
