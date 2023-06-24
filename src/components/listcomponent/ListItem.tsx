@@ -6,9 +6,7 @@ function ListItem() {
   return (
     <div className="list-item">
       <div className="list-item__preview">
-        <p className="list-item__preview-text">
-          Lorem ipsum dolor sit amet consectetur.
-        </p>
+        <p className="list-item__preview-text">Lorem ipsum dolor sit ame.</p>
 
         <button
           onClick={(e) => setShowText((p) => !p)}
